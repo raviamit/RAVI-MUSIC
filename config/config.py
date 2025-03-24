@@ -12,10 +12,10 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "OfficialDurgesh")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "TRC_OWNER")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "DuruXbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "RaviXbot")
 
 #❖  Don't Add style font 
 BOT_NAME = getenv("BOT_NAME")
@@ -35,7 +35,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "1679112664"))
+OWNER_ID = int(getenv("OWNER_ID", "7028547627"))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -51,7 +51,7 @@ GPT_API = getenv("GPT_API", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/IamDuru/dshsbvibes",
+    "https://github.com/raviamit/RAVI-MUSIC",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -60,8 +60,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/net_pro_max")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+cXIPgHSuJnxiNjU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/sad_love_hindi_jockes_shayari")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/bestchattinggroupp")
 
 #❖ Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
